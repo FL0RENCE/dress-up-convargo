@@ -1,0 +1,22 @@
+
+h1
+{
+    text-align: center;
+}
+#p1{
+	    text-align: center;
+}
+
+*{
+font-family:Comic Sans MS}
+*{
+	color: white}
+#compute{
+color:black}
+
+body
+{
+    background-image: url("tar.jpg");
+	background-repeat: repeat;
+	 opacity: 0.9;
+}

@@ -2,18 +2,31 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Convargo</title>
+	<link rel="stylesheet" href="style.css" />
   </head>
   <body>
+	<h1>Compute your delivery!</h1>
+	<p id=p1><a href="https://www.everoad.com/" title="Come visit us!"><img src="http://www.croissanceplus.com/wp-content/uploads/2017/09/Convargo.jpg" height=100></a><br /></p>
+	<p>Here you can enter the trucker's caracteristics</p>
     <div id="trucker">
       <input class="name" type="text" placeholder="Trucker name"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
       <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
     </div>
+	<p>Here you can enter the shiper's caracteristics</p>
     <div id="shipper">
       <input class="name" type="text" placeholder="Shipper name"/>
       <input class="distance" type="number" placeholder="Distance in km"/>
       <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+	  <p>
+		  <td>
+				Do you want the option?
+				<br>
+					<INPUT TYPE="radio"  class="option" NAME= "option" VALUE="option" CHECKED> yes
+				<br>
+					<INPUT TYPE="radio" NAME= "option" VALUE="non"> no
+		  </td>
+		</p>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
